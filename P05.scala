@@ -21,4 +21,13 @@ object P05 {
     }
     reverseTail(li, Nil)
   }
+
+  // Fold
+  def reverse3[A](li: List[A]): List[A] = {
+    li.foldRight(Nil) {
+      (a: A, b: List[A]) => {
+        b :+ a
+      }
+    }
+  }
 }
