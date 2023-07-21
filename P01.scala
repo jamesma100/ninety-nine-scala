@@ -1,3 +1,6 @@
+/*
+ * P01: Find last element of a list
+ */
 object P01 {
   def last[A](li: List[A]): Option[A] = {
     li match {
