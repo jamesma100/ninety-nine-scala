@@ -7,7 +7,7 @@ object P05 {
     li match {
       case Nil => Nil
       case x :: Nil => List(x)
-      case x :: rest => reverse1(rest) ::: List(x)
+      case x :: rest => reverse1(rest) :+ x
     }
   }
 
@@ -16,7 +16,7 @@ object P05 {
     def reverseTail(li: List[A], sol: List[A]): List[A] = {
       li match {
         case Nil => sol
-        case x :: rest => reverseTail(rest, List(x) ::: sol)
+        case x :: rest => reverseTail(rest, x :: sol)
       }
     }
     reverseTail(li, Nil)
