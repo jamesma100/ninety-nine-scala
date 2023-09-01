@@ -1,5 +1,5 @@
 # ninety-nine-scala
-Solutions to the [Ninety-Nine Scala Problems](https://aperiodic.net/phil/scala/s-99/) based on the OG [Ninety-Nine Prolog Problems](https://www.ic.unicamp.br/~meidanis/courses/mc336/2009s2/prolog/problemas/) solved using the functional paradigm.
+Solutions to the [Ninety-Nine Scala Problems](https://aperiodic.net/phil/scala/s-99/) solved somewhat [functionally](https://en.wikipedia.org/wiki/Functional_programming).
 
 ## Usage
 Simply...
